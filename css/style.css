@@ -114,12 +114,9 @@ body {
 }
 /* Sub Menu */
 .menu ul {
-    width:110px !important;
-    text-align:center;
-    text-shadow:2px green;
 	z-index:999;
 	position: absolute;
-	/*top: 48px;*/
+	top: 48px;
 	left: 0;
 	opacity: 0;
 	background: #333;
@@ -134,7 +131,6 @@ body {
 }
 .menu li:hover > ul {
 	 opacity: 1;
-     
 }
 .menu ul li {
 	height: 0;
@@ -154,7 +150,7 @@ body {
 }
 .menu ul li a {
 	width: 100px;
-	padding: 4px 0 4px 4px;
+	padding: 4px 0 4px 40px;
 	margin: 0;
 	color:#fff;
 	border: none;
@@ -371,12 +367,12 @@ p  {
 .col_1_of_5{
 	display: block;
 	float:left;
-	margin: 0 10px 5px 0;
+	margin: 1% 0 1% 1.6%;
 	background: #fff;
 }
 .col_1_of_5:first-child { margin-left: 0; }
 .span_1_of_5 {
-  	width: 45%;
+  	width: 15.52%;
   	padding:1.4%;
   	border: 1px solid rgb(233, 233, 233);
 	box-shadow: 0px 0px 5px rgb(243, 243, 243);
@@ -674,12 +670,6 @@ h3 span a:hover{
 .nav1 li a:hover{
 	color: #00bbff;
 }
-.yt_tv {
-background-image:url("../images/tv.jpg");
-background-repeat:no-repeat;
-height:300px;
-background-size:100% 100%;
-}
 /*  GRID OF THREE   ============================================================================= */
 .section {
 	clear: both;
@@ -806,11 +796,11 @@ background-size:100% 100%;
 	margin-left:0;
 }	
 .span_2_of_3 {
-	width: 62%;
+	width: 63.1%;
 	padding:1.5%; 
 }
 .span_1_of_3 {
-	width: 30%;
+	width: 29.2%;
 	padding:1.5%; 
 }
 .contact-form{
@@ -942,7 +932,7 @@ background-size:100% 100%;
 		margin: 1% 0 1% 0%;
 	}
 	.span_1_of_3 {
-		width:90% !important;
+		width:90%;
 		padding:5%; 
 	}
 	.contact-form input[type="text"],.contact-form textarea{
@@ -991,7 +981,6 @@ h5{
 #mcts1 
 {
     width:100%;
-    
     height:250px;
     margin: 0 auto;
     /* Do not alter the below settings */
@@ -1011,7 +1000,6 @@ h5{
 }
 #mcts1 img{
     border:none;
-    max-height:200px;
 }
 /*---------built-in navigation buttons-------*/
 #mcts1 .navPrev, #mcts1 .navNext, #mcts1 .navPlay, #mcts1 .navPause{
@@ -1063,14 +1051,4 @@ p.sort{
 .drp-dwn{
 	margin: 2.2% 1% 0%;
 	float: left;
-}
-@media only screen and (max-width:770px ) {
-    .mcts1 {
-    max-width:50%;
-    }
-}
-@media only screen and (max-width:640px ) {
-    .div2 {
-    display:none;
-    }
 }
